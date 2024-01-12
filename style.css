@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#titulo-menusuperior{
+    color: #FFFFFF;
+    margin-left: 80px;
+    width: 1500px;
+    font-size: 70px;
+    padding-top: 175px;
+}
+
+#texto-menusuperior{
+    color: #FFFFFF;    
+    margin-left: 80px;
+    margin-top: 15px;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+
+#menusuperior{
+    background-color: #303030;    
+}
+
+#menuinformacional{
+    background-color: #F9F9F9;
+    color: #000000;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 160px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+
+}
+
+#p-empreendimentos{
+    font-size: 20px;
+}
+
+#p-anos{
+    font-size: 20px;
+}
+
+#p-metros{
+    font-size: 20px;
+}
+
+#img-texto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#i-imagem{
+    margin: 50px 25px 50px 100px;  
+}
+
+#i-titulo{
+    margin-top: 270px;
+    width: 800px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#i-texto{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+#formulario{
+    text-align: center;
+    background-color: #303030;
+}
+
+#tituloformulario{
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 80px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    height: 45px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #1b250581;
+    transition-duration: 0.5s;
+}
+
+
+
